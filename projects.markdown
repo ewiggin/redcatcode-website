@@ -5,4 +5,4 @@ position: 1
 layout: projects
 ---
 
-We are build a lot of awesome projects
+Constriumos cosas asombrosas
