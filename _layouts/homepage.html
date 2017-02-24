@@ -7,8 +7,8 @@
     <title>RedCatCode :: {{ page.title }}</title>
     <link rel="stylesheet" href="style.css" />
     <style type="text/css">
-      body > article {
-        background-image: url("_uploads/home-bkg.jpg");
+      body {
+        background-image: url("{{ page.image }}");
         background-size: cover;
         background-repeat: no-repeat;
       }
@@ -34,9 +34,6 @@
     <article>
       {{ body }}
     </article>
-    <footer>
-      <div>© Copyright 2011—2017, RedCatCode</div>
-    </footer>
 
   </body>
 </html>
