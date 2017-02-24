@@ -7,4 +7,4 @@ image: "/uploads/home-bkg.jpg"
 layout: homepage
 ---
 
-# Hello!
+# Hola!
