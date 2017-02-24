@@ -11,6 +11,7 @@ skills:
   laravel: "========"
   expressjs: "=========================="
   docker: "===="
+layout: about
 ---
 
 # Y0!
