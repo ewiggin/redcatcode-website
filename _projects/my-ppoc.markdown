@@ -11,4 +11,4 @@ layout: default
 
 Backoffice para poder gestionar algunos puestos de difusión de noticias y publicaciones de los Testigos de Jehová. Esta herramienta ayuda a la coordinación de turnos, puestos y notificaciones entre equipos de 60 a 100 personas.
 
-Realizado con \*\*laravel\*\*. Además cuenta con maquetación totalmente responsive para que se pueda acceder tanto desde un movil como tablet y hasta ordenador.
+Realizado con **laravel 5.1**. Además cuenta con maquetación totalmente responsive para que se pueda acceder tanto desde un movil como tablet y hasta ordenador.
