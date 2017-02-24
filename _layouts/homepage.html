@@ -1,7 +1,42 @@
-{% capture content %}
-    <article>
-        {{ body }}
-    </article>
-{% endcapture %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RedCatCode :: {{ page.title }}</title>
+    <link rel="stylesheet" href="style.css" />
+    <style type="text/css">
+      body > article {
+        background-image: url("_uploads/home-bkg.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    </style>
+  </head>
+  <body>
 
-{% include 'layouts/default' %}
+    <header>
+      <a href="/" class="logo">
+        RedCatCode
+        <span>Coders, etc.</span>
+      </a>
+      <nav role="main">
+        {% for page in site.pages %}
+            <a href="{{page.url}}">{{page.title}}</a>
+        {% endfor %}
+      </nav>
+      <ul class="social">
+          <li><a href="mailto:mario@redcatcode.com"><img src="/images/mail.svg" alt="Email"></a></li>
+          <li><a href="http://twitter.com/redcatcode"><img src="/images/twitter.svg" alt="Twitter"></a></li>
+      </ul>
+    </header>
+    <article>
+      {{ body }}
+    </article>
+    <footer>
+      <div>© Copyright 2011—2017, RedCatCode</div>
+    </footer>
+
+  </body>
+</html>
