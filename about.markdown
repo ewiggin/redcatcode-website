@@ -17,7 +17,7 @@ skills:
 layout: about
 ---
 
-## Soy Mario Martínez.
+## Soy [Mario Martínez](https://github.com/ewiggin).
 
 Mi intención es ser tu pequeño estudio de desarrollo de proyectos multimedia. Trabajo en el desarrollo de software y sitios web desde hace 8 años, he pasado por multitud de tecnologías y disciplinas diversas. La verdad es que me siento con los conocimientos y las ganas suficientes para poder ofrecer mi ayuda profesional.
 
