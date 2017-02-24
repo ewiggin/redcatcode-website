@@ -1,4 +1,4 @@
-{% include '_partials/header.html' %}
+{% include header.html %}
   <article>
     <header>
       <a href="/projects/"><h2>Proyectos</h2></a>
@@ -8,11 +8,11 @@
       {% for project in site.projects %}
         <div class="item">
           <a href="{{project.url}}">
-            <img src="{{project.image}}" alt="NPR Music">
+            <img src="{{project.image}}" alt="{{project.title}}">
             <span>{{project.title}}</span>
           </a>
         </div>
       {% endfor %}
     </div>
   </article>
-{% include '_partials/footer.html' %}
+{% include footer.html %}

@@ -2,7 +2,6 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <base href="https://ewiggin.github.io/redcatcode-website/">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>RedCatCode :: {{ page.title }}</title>
@@ -16,13 +15,12 @@
         <span>Coders, etc.</span>
       </a>
       <nav role="main">
-        {% for page in site.pages %}
+        {% for page in site.pages | sort %}
             <a href="{{page.url}}">{{page.title}}</a>
         {% endfor %}
       </nav>
       <ul class="social">
-          <li><a href="mailto:mario@redcatcode.com"><img src="/images/mail.svg" alt="Email"></a></li>
-          <li><a href="http://instagram.com/frankchimero"><img src="/images/instagram.svg" alt="Instagram"></a></li>
-          <li><a href="http://twitter.com/frank_chimero"><img src="/images/twitter.svg" alt="Twitter"></a></li>
+          <li><a href="mailto:mario@redcatcode.com">E</a></li>
+          <li><a href="http://twitter.com/redcatcode">T</a></li>
       </ul>
     </header>

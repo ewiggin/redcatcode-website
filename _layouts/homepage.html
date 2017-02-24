@@ -16,29 +16,19 @@
       body h1 {
         unicode-bidi: bidi-override;
         direction: rtl;
-        font-size: 64px;
-        font-family: monospace;
+        font-size: 130px;
         text-align: center;
+        font-family: "Helvetica";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: #fff;
       }
     </style>
   </head>
   <body>
 
-    <header>
-      <a href="/" class="logo">
-        RedCatCode
-        <span>Coders, etc.</span>
-      </a>
-      <nav role="main">
-        {% for page in site.pages %}
-            <a href="{{page.url}}">{{page.title}}</a>
-        {% endfor %}
-      </nav>
-      <ul class="social">
-          <li><a href="mailto:mario@redcatcode.com"><img src="/images/mail.svg" alt="Email"></a></li>
-          <li><a href="http://twitter.com/redcatcode"><img src="/images/twitter.svg" alt="Twitter"></a></li>
-      </ul>
-    </header>
+    {% include header.html %}
     <article>
       {{ content }}
     </article>
