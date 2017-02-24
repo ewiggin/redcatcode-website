@@ -1,14 +1,14 @@
 {% include header.html %}
   <article>
     <header>
-      <a href="/projects/"><h2>Proyectos</h2></a>
+      <a href="{{ page.url | relative_url }}"><h2>Proyectos</h2></a>
       Estoy disponible para nuevos proyectos a partir de Marzo 2017
     </header>
     <div class="projectlist">
       {% for project in site.projects %}
         <div class="item">
           <a href="{{project.url}}">
-            <img src="{{project.image}}" alt="NPR Music">
+            <img src="{{project.image}}" alt="{{project.title}}">
             <span>{{project.title}}</span>
           </a>
         </div>
