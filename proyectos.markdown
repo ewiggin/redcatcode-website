@@ -5,4 +5,4 @@ position: 0
 layout: projects
 ---
 
-Desarrollado con ❤️️ en Olot, Girona.
+# Hecho con ❤️️ en Olot, Girona.
