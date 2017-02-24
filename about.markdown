@@ -14,7 +14,6 @@ skills:
 layout: about
 ---
 
-# Y0!
 ## Soy Mario Martínez.
 
 Desarrollador desde hace 8 años. He pasado por multitud de tecnologías y disciplinas... 
