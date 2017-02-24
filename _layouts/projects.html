@@ -1,7 +1,20 @@
 {% capture content %}
+
+<header>
+    <a href="/projects/"><h2>Proyectos</h2></a>
+    Available for new projects February 2017
+  </header>
+  <div class="projectlist">
+
   {% for project in {{site.projects}} %}
-      <a href="{{project.url}}">{{project.title}}</a>
+    <div class="item">
+      <a href="{{project.url}}">
+        <img src="{{project.image}}" alt="NPR Music">
+        <span>{{project.title}}</span>
+      </a>
+    </div>
   {% endfor %}
+  </div>
 {% endcapture %}
 
 {% include 'default' %}
