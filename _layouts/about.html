@@ -1,0 +1,21 @@
+---
+title: Acerca de
+layout: about
+---
+
+{% include header.html %}
+  <article>
+    <header>
+      <a href="/projects/"><h2>Yo!</h2></a>
+      {{ content }}
+    </header>
+    <!-- skills -->
+    <div class="projectlist">
+      {% for skill in page.skills %}
+        <div class="item">
+            <span>{{ forloop.index }}: {{skill}}</span>
+        </div>
+      {% endfor %}
+    </div>
+  </article>
+{% include footer.html %}
