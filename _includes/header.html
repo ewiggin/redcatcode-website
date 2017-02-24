@@ -16,7 +16,9 @@
       </a>
       <nav role="main">
         {% for page in site.pages | sort position %}
+          {% if site.title != 'Home' %}
             <a href="{{page.url}}">{{page.title}}</a>
+          {% endif %}
         {% endfor %}
       </nav>
       <ul class="social">
