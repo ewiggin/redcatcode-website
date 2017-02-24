@@ -16,10 +16,8 @@
       </a>
       <nav role="main">
         {% for page in site.pages %}
-            <li class="nav__item">
-              <a href="{{page.url}}" class="fade">{{page.title}}</a>
-            </li>
-          {% endfor %}
+            <a href="{{page.url}}">{{page.title}}</a>
+        {% endfor %}
       </nav>
       <ul class="social">
           <li><a href="mailto:mario@redcatcode.com"><img src="/images/mail.svg" alt="Email"></a></li>
