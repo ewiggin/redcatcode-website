@@ -5,4 +5,4 @@ position: 0
 layout: projects
 ---
 
-Constriumos cosas asombrosas
+Construimos cosas asombrosas. Estoy disponible a partir de Abril 17.
