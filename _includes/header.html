@@ -15,7 +15,7 @@
         <span>Coders, etc.</span>
       </a>
       <nav role="main">
-        {% for page in site.pages | sort position %}
+        {% for page in site.pages | sort "position" %}
           {% if site.title != 'Home' %}
             <a href="{{page.url}}">{{page.title}}</a>
           {% endif %}
