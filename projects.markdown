@@ -5,3 +5,8 @@ position: 1
 ---
 
 We are build a lot of awesome projects
+
+
+{% for project in {{site.projects}} %}
+    <a href="{{project.url}}">{{project.title}}</a>
+{% endfor %}
