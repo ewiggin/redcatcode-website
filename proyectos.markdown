@@ -5,4 +5,4 @@ position: 0
 layout: projects
 ---
 
-Construimos cosas asombrosas. Estoy disponible a partir de Abril 17.
+Desarrollado con ❤️️ en Olot, Girona.
