@@ -15,12 +15,12 @@
         <span>Coders, etc.</span>
       </a>
       <nav role="main">
-        {% for page in site.pages %}
+        {% for page in site.pages | sort %}
             <a href="{{page.url  | relative_url }}">{{page.title}}</a>
         {% endfor %}
       </nav>
       <ul class="social">
-          <li><a href="mailto:mario@redcatcode.com">Email</li>
-          <li><a href="http://twitter.com/redcatcode">Twitter</a></li>
+          <li><a href="mailto:mario@redcatcode.com">E</li>
+          <li><a href="https://twitter.com/redcatcode">T</a></li>
       </ul>
     </header>
