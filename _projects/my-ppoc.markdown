@@ -6,6 +6,7 @@ categories:
 - backoffice
 - laravel
 image: "/uploads/Captura%20de%20pantalla%202017-02-24%20a%20las%2019.16.49.png"
+layout: default
 ---
 
 Backoffice para poder gestionar algunos puestos de difusión de noticias y publicaciones de los Testigos de Jehová. Esta herramienta ayuda a la coordinación de turnos, puestos y notificaciones entre equipos de 60 a 100 personas.
